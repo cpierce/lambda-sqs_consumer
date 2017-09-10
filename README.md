@@ -8,9 +8,9 @@ is passed to the worker via JSON Encoded String:
 ### Environment Variables
 The following environment variables are in use with the script:
 
-* `queueUrl` - SQS Queue URL for the callback.
+- `queueUrl` - SQS Queue URL for the callback.
 
-* `lambdaWorker` - Used to tell the Consumer what the name of the worker script is called. This
+- `lambdaWorker` - Used to tell the Consumer what the name of the worker script is called. This
 must be set to an existing Lambda Worker Function.
 
 These variables must be set so that you don't have any issues with the script running on Lambda.
